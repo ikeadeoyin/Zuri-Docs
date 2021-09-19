@@ -1,13 +1,5 @@
 # Zuri Chat Core API (Chat Channel Plugin) (v1)
 
-
-
-Zuri Chat is an open source slack clone. However, it offers a lot more functionality via a plugin system where each room can be provided by a different plugin provider.
-
-#### Chat Channel Plugin is made by Tean Coelho
-
-Developer Contact: [team-coelho@zuri.chat](team-coelho@zuri.chat)
-
 # Authentication
 
 ### Authentication:
