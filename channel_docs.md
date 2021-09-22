@@ -45,7 +45,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -104,7 +104,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -147,7 +147,7 @@ Endpoint: `{baseUrl}/v1/details`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -191,7 +191,7 @@ Endpoint: `{baseUrl}/v1/info`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -252,7 +252,7 @@ Endpoint: `{baseUrl}/v1/sidebar`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -304,7 +304,7 @@ Endpoint: `{baseUrl}/v1/ping`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -358,7 +358,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32 
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -443,7 +443,7 @@ Content-Type: `application/json`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -504,7 +504,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32 
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -588,7 +588,7 @@ Content-Type: `application/json`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -651,7 +651,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -726,7 +726,7 @@ Content-Type: `application/json`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32 
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -817,7 +817,7 @@ Content-Type: `application/json`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32 
+code required      integer <int32>
 message required   string 
 data required      object
 ```
@@ -879,7 +879,7 @@ Authorization: `Basic Auth credentials`
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer int32
+code required      integer <int32>
 message required   string 
 data required      object
 ```
