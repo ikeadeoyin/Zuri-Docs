@@ -15,15 +15,13 @@ channels.zuri.chat
 ```
 
 # Collections
-<details>
-  <summary> GET /v1/collections/{plugin_id}</summary>
-
- </details>
+ GET /v1/collections/{plugin_id}
 
  This endpoint allows you get collections.
 
  Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/collections/{plugin_id}`
 
 ## Path Parameters
@@ -40,12 +38,14 @@ Authorization: `Basic Auth credentials`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -57,7 +57,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -72,15 +74,13 @@ data required      object
 
 # Get Collection by Organization
 
-<details>
-  <summary> GET /v1/collections/{plugin_id}/organizations{org_id}</summary>
-
- </details>
+ GET /v1/collections/{plugin_id}/organizations{org_id}
 
  This endpoint allows you to get collection by organization
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/collections/{plugin_id}/organizations{org_id}`
 
 ## Path Parameters
@@ -98,12 +98,13 @@ Authorization: `Basic Auth credentials`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -115,7 +116,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -126,25 +129,25 @@ data required      object
 
 # Read Details
 
-<details>
-  <summary> GET /v1/details/ </summary>
-
- </details>
+GET /v1/details/ 
 
 This endpoint allows you to get details.
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/details`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -157,7 +160,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -168,26 +173,25 @@ data required      object
 
 
 # Read Info
-
-<details>
-  <summary> GET /v1/info/ </summary>
-
- </details>
+ GET /v1/info/ 
 
 This endpoint allows you to get info.
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/info`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -215,7 +219,9 @@ data required      object
 
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -228,25 +234,25 @@ data required      object
 
 # Read Sidebar
 
-<details>
-  <summary> GET /v1/sidebar/ </summary>
-
- </details>
+ GET /v1/sidebar/ 
 
 This endpoint allows you to get the sidebar.
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/sidebar`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -267,7 +273,9 @@ data required      object
 
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -278,26 +286,25 @@ data required      object
 
 
 # Read ping
-
-<details>
-  <summary> GET /v1/ping/ </summary>
-
- </details>
+ GET /v1/ping/ 
 
 This endpoint allows you to get ping.
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/ping`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -308,7 +315,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -319,14 +328,13 @@ data required      object
 
 
 # Read a Channel
-<details>
-  <summary> GET /v1/{org_id}/channels </summary>
 
- </details>
+ GET /v1/{org_id}/channels 
 
  This endpoint allows you to get all the channels for a particular organization
  Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels`
 
 ## Path Parameters
@@ -343,12 +351,14 @@ Authorization: `Basic Auth credentials`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32 
 message required   string 
 data required      object
 ```
@@ -365,7 +375,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -377,15 +389,13 @@ data required      object
 
 # Create a Channel
 
-<details>
-  <summary> POST /v1/{org_id}/channels/</summary>
-
- </details>
+ POST /v1/{org_id}/channels/
 
  This endpoint allows you to create a channel for an organization
 
 Request Type: `POST`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/`
 
 ## Path Parameters
@@ -426,12 +436,14 @@ Content-Type: `application/json`
 
 ## Sample Response
 
-### **201** Success <br>
+### **201** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -447,7 +459,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -458,15 +472,13 @@ data required      object
 
 # Read one channel from an organization
 
-<details>
-  <summary> GET /v1​/{org_id}​/channels​/{channel_id}​/ </summary>
-
- </details>
+GET /v1​/{org_id}​/channels​/{channel_id}​/
 
 This endpoint allows you to get a channel from an organization
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/members/{member_id}`
 
 ## Path Parameters
@@ -485,12 +497,14 @@ Authorization: `Basic Auth credentials`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32 
 message required   string 
 data required      object
 ```
@@ -507,7 +521,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -517,16 +533,13 @@ data required      object
 ```
 
 # Update a channel
-
-<details>
-  <summary> PUT /v1/{org_id}/channels/{channel_id}/ </summary>
-
- </details>
+ PUT /v1/{org_id}/channels/{channel_id}/ 
 
 This endpoint allows you to update a channel
 
 Request Type: `PUT`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/`
 
 ## Path Parameters
@@ -568,12 +581,14 @@ Content-Type: `application/json`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -590,7 +605,8 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
 
 ```sh
 {
@@ -602,15 +618,13 @@ data required      object
 
 # Delete a channel
 
-<details>
-  <summary> DELETE /v1/{org_id}/channels/{channel_id}/</summary>
-
- </details>
+DELETE /v1/{org_id}/channels/{channel_id}/
 
 This endpoint allows you to delete a channel
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/`
 
 ## Path Parameters
@@ -630,12 +644,14 @@ Authorization: `Basic Auth credentials`
  
 ## Sample Response
 
-### **204** Success <br>
+### **204** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -647,7 +663,9 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -662,15 +680,13 @@ data required      object
 
 
 # Retrieve a Member's details in a Channel
-<details>
-  <summary> GET /v1/{org_id}/channels/{channel_id}/members/{member_id} </summary>
-
- </details>
+ GET /v1/{org_id}/channels/{channel_id}/members/{member_id} 
 
 This endpoint allows you to retrieve a member's details in a channel
 
 Request Type: `GET`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/members/{member_id}`
 
 ## Path Parameters
@@ -703,12 +719,14 @@ Content-Type: `application/json`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32 
 message required   string 
 data required      object
 ```
@@ -729,7 +747,9 @@ data required      object
 
 Status Code: `404` -  Not Found
 
-### **400** Not Found <br>
+### **400** Not Found 
+
+
 
 ```sh
 {
@@ -740,16 +760,14 @@ Status Code: `404` -  Not Found
 
 # Update a member's detail in a channel
 
-<details>
-  <summary> PUT /v1/{org_id}/channels/{channel_id}/members/{member_id} </summary>
-
- </details>
+ PUT /v1/{org_id}/channels/{channel_id}/members/{member_id} 
 
 
 This endpoint allows you to update a member's details in a channel
 
 Request Type: `PUT`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/members/{member_id}`
 
 ### Path Parameters
@@ -792,12 +810,14 @@ Content-Type: `application/json`
 
 ## Sample Response
 
-### **200** Success <br>
+### **200** Success 
+
+
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32 
 message required   string 
 data required      object
 ```
@@ -813,7 +833,9 @@ data required      object
 
 ### Error Response:
 
-### **404** Not Found <br>
+### **404** Not Found 
+
+
 
 ```sh
 {
@@ -825,15 +847,13 @@ data required      object
 
 # Delete a Member from a Channel
 
-<details>
-<summary> DELETE /v1/{org_id}/channels/{channel_id}/members/{member_id}] </summary>
-
-</details>
+ DELETE /v1/{org_id}/channels/{channel_id}/members/{member_id}] 
 
 This endpoint allows you to delete a member from a channel
 
 Request Type: `DELETE`
-<br>
+
+
 Endpoint: `{baseUrl}/v1/{org_id}/channels/{channel_id}/members/{member_id}`
 
 
@@ -854,12 +874,12 @@ Authorization: `Basic Auth credentials`
  
 ## Sample Response
 
-### **204** Success <br>
+### **204** Success 
 
 ```
 RESPONSE SCHEMA: application/json
 
-code required      integer <int32> 
+code required      integer int32
 message required   string 
 data required      object
 ```
@@ -871,7 +891,8 @@ data required      object
 }
 ```
 
-### **404** Not Found <br>
+### **404** Not Found 
+
 
 ```sh
 {
