@@ -15,8 +15,7 @@ Endpoint: `/account/request-password-reset-code`
 ## Request Headers
     
 Content-Type: `application/json`
-    
-Authorization: `Basic Auth credentials`
+
 
 ## Request Body Params
 Params| Description | Required
@@ -73,8 +72,6 @@ Endpoint: `/account/verify-account`
     
 Content-Type: `application/json`
     
-Authorization: `Basic Auth credentials`
-
 ## Request Body Params
 Params| Description | Required
 ---------|----------|---------
