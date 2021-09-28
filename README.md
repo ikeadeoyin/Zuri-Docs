@@ -1,4 +1,7 @@
 # Zuri-Docs
-## Chat Channel Documentation
+- Chat Channel Documentation
 
-## Authentication Documentation
+- Authentication Documentation
+
+- Plugin Documentation
+
